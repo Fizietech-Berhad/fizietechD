@@ -5,29 +5,7 @@ v0.7
 ----
 
 Unreleased
-(`changes <https://github.com/earwig/mwparserfromhell/compare/v0.6.4...main>`__):
-
-- ...
-
-v0.6.4
-------
-
-`Released February 14, 2022 <https://github.com/earwig/mwparserfromhell/tree/v0.6.4>`_
-(`changes <https://github.com/earwig/mwparserfromhell/compare/v0.6.3...v0.6.4>`__):
-
-- Dropped support for end-of-life Python 3.5.
-- Added support for Python 3.10.
-  (`#278 <https://github.com/earwig/mwparserfromhell/issues/278>`_)
-- Fixed a regression in v0.6.2 that broke parsing of nested wikilinks in file
-  captions. For now, the parser will handle interpret wikilinks in normal links
-  as well, even though this differs from MediaWiki.
-  (`#270 <https://github.com/earwig/mwparserfromhell/issues/270>`_)
-
-v0.6.3
-------
-
-`Released September 2, 2021 <https://github.com/earwig/mwparserfromhell/tree/v0.6.3>`_
-(`changes <https://github.com/earwig/mwparserfromhell/compare/v0.6.2...v0.6.3>`__):
+(`changes <https://github.com/earwig/mwparserfromhell/compare/v0.6.2...develop>`__):
 
 - Added Linux AArch64 wheels.
   (`#276 <https://github.com/earwig/mwparserfromhell/issues/276>`_)
